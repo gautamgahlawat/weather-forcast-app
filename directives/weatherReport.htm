@@ -1,0 +1,10 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            {{convertToDate(w.dt) | date: 'MMM d, y'}}
+        </h3>
+    </div>
+    <div class="panel-body">
+        Daytime Temprature: {{w.temp.day - 273.5 | number : 2}}°c
+    </div>
+</div>
