@@ -1,2 +1,2 @@
 # Weather-forcast-app
-The application forecasts the weather by the city name.
+It is simple application to forecasts weather by the city name and state.
